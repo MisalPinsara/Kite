@@ -1,0 +1,195 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "username": "johndoe",
+            "email": "johndoe@gmail.com",
+            "password": "john123",
+            "mobile": "0776127893"
+        }
+    ],
+    "events": [
+        {
+            "Id": 1,
+            "Name": "Summer Fest: 2026",
+            "Date": "12th March 2026",
+            "Time": "10.00am to 4.00pm",
+            "seats": 20,
+            "seatsLeft": 4,
+            "Location": "Delt ground Kollupitiya",
+            "image": "assets/images/summer-fest-bg.webp",
+            "description": "The ultimate beach festival featuring international DJs, bonfire nights, and sunset sessions at the heart of the coast."
+        },
+        {
+            "Id": 2,
+            "Name": "Tech Pulse Workshop",
+            "Date": "25th April 2026",
+            "Time": "9.00am to 1.00pm",
+            "seats": 30,
+            "seatsLeft": 8,
+            "Location": "BMICH - Committee Room B",
+            "image": "assets/images/tech-pulse-bg.webp",
+            "description": "Master the latest web technologies in this intensive hands-on workshop led by industry-leading software engineers."
+        },
+        {
+            "Id": 3,
+            "Name": "Midnight Jazz Night",
+            "Date": "15th May 2026",
+            "Time": "7.00pm to 11.30pm",
+            "seats": 50,
+            "seatsLeft": 34,
+            "Location": "Viharamahadevi Amphitheatre",
+            "image": "assets/images/jazz-night-bg.webp",
+            "description": "Experience an enchanting evening of soul-stirring jazz performances under the stars in Colombo's iconic garden theater."
+        },
+        {
+            "Id": 4,
+            "Name": "Startup Pitch Summit",
+            "Date": "2nd June 2026",
+            "Time": "8.30am to 5.00pm",
+            "seats": 100,
+            "seatsLeft": 45,
+            "Location": "Hilton Colombo Grand Ballroom",
+            "image": "assets/images/pitch-summit-bg.webp",
+            "description": "Where brilliant ideas meet strategic capital. Watch the region's brightest startups compete for funding and mentorship."
+        },
+        {
+            "Id": 5,
+            "Name": "WebFest Developer Conference",
+            "Date": "10th July 2026",
+            "Time": "9.00am to 6.00pm",
+            "seats": 200,
+            "seatsLeft": 79,
+            "Location": "Sri Lanka Exhibition Centre",
+            "image": "assets/images/web-fest-bg.webp",
+            "description": "The biggest gathering of web developers in the country. Keynotes, technical tracks, and networking with global tech leaders."
+        },
+        {
+            "Id": 6,
+            "Name": "Art & History Museum Tour",
+            "Date": "14th August 2026",
+            "Time": "10.00am to 12.00pm",
+            "seats": 15,
+            "seatsLeft": 2,
+            "Location": "National Museum Colombo",
+            "image": "assets/images/museum-tour-bg.webp",
+            "description": "Take a curated journey through time with expert historians and discover the hidden stories behind our national treasures."
+        },
+        {
+            "Id": 7,
+            "Name": "Marathon City Run",
+            "Date": "5th September 2026",
+            "Time": "5.00am to 9.00am",
+            "seats": 500,
+            "seatsLeft": 119,
+            "Location": "Galle Face Green",
+            "image": "assets/images/marathon-bg.webp",
+            "description": "Join thousands of runners for a refreshing morning sprint along the coastline. Open to all fitness levels."
+        },
+        {
+            "Id": 8,
+            "Name": "Global Food Carnival",
+            "Date": "20th October 2026",
+            "Time": "4.00pm to 11.00pm",
+            "seats": 80,
+            "seatsLeft": 0,
+            "Location": "Diyatha Uyana Battaramulla",
+            "image": "assets/images/food-carnival-bg.webp",
+            "description": "A gastronomic celebration featuring exotic cuisines from over 30 countries. Live cooking stations and cultural shows."
+        },
+        {
+            "Id": 101,
+            "Name": "Blockchain & Web3 Meetup",
+            "Date": "12th November 2026",
+            "Time": "2.00pm to 6.00pm",
+            "seats": 40,
+            "seatsLeft": 15,
+            "Location": "Trace Expert City",
+            "image": "assets/images/blockchein-bg.webp",
+            "description": "Dive deep into the future of decentralization. Discuss DeFi, NFTs, and the evolving landscape of Web3 technology."
+        },
+        {
+            "Id": 102,
+            "Name": "Open Mic Poetry Night",
+            "Date": "25th November 2026",
+            "Time": "7.00pm to 9.30pm",
+            "seats": 25,
+            "seatsLeft": 8,
+            "Location": "Barefoot Gallery Cafe",
+            "image": "assets/images/poetry-night-bg.webp",
+            "description": "An intimate space for poets and storytellers to share their voices. Relaxed vibes, coffee, and spoken word magic."
+        },
+        {
+            "Id": 103,
+            "Name": "Annual Music Awards",
+            "Date": "10th December 2026",
+            "Time": "6.00pm to 11.00pm",
+            "seats": 300,
+            "seatsLeft": 55,
+            "Location": "Nelum Pokuna Theatre",
+            "image": "assets/images/music-awards-bg.webp",
+            "description": "The most prestigious night in the music industry. Celebrating excellence with red carpet appearances and live performances."
+        },
+        {
+            "Id": 104,
+            "Name": "Photography Workshop",
+            "Date": "15th January 2027",
+            "Time": "10.00am to 3.00pm",
+            "seats": 20,
+            "seatsLeft": 12,
+            "Location": "Independence Square Colombo",
+            "image": "assets/images/photography-bg.webp",
+            "description": "Capture the essence of the city. Expert photographers guide you through architectural, landscape, and street photography techniques."
+        }
+    ],
+    "myEvents": [
+        {
+            "UserId": 1,
+            "EventId": 1,
+            "registeredMail": "johndoe@gmail.com",
+            "Id": 1
+        },
+        {
+            "UserId": 1,
+            "EventId": 2,
+            "registeredMail": "john24@gmail.com",
+            "Id": 2
+        },
+        {
+            "UserId": 1,
+            "EventId": 3,
+            "registeredMail": "johndoe@gmail.com",
+            "Id": 3
+        },
+        {
+            "UserId": 1,
+            "EventId": 7,
+            "registeredMail": "johndoe@gmail.com",
+            "Id": 4
+        },
+        {
+            "UserId": 2,
+            "EventId": 2,
+            "registeredMail": "johnplayer@gmail.com",
+            "Id": 5
+        },
+        {
+            "UserId": 1,
+            "EventId": 5,
+            "registeredMail": "johndoe@gmail.com",
+            "Id": 6
+        }
+    ],
+    "reviews": [
+        {
+            "name": "johndoe",
+            "description": "we had a blast in the 2025 summerfest, hope this one does the same. i'll meet y'all in the event, enjoy the summer!",
+            "eventId": 1
+        },
+        {
+            "name": "johnplayer",
+            "description": "Amazing event",
+            "eventId": 2
+        }
+    ]
+}
